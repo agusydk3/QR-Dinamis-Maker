@@ -2,8 +2,8 @@ const qrcode = require('qrcode');
 const fs = require('fs');
 const { pad, toCRC16 } = require('./lib/index');
 
-// Data QRIS yang telah ditentukan
-const qrisCode = "REDACTED_QRIS";
+// Data QRIS 
+const qrisCode = "";
 
 /**
  * Fungsi untuk menghasilkan QRIS dengan nominal yang diberikan
